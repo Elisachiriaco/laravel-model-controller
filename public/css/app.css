@@ -20508,8 +20508,24 @@ readers do not read off random characters that represent icons */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  background: #00416a;
+  background: linear-gradient(to top, #00416a, #e4e5e6);
 }
 
 ul {
   list-style-type: none;
+}
+
+h1, .h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
